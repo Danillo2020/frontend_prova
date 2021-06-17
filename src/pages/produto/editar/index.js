@@ -100,7 +100,7 @@ class EditarProduto extends Component {
                             />
                         </div>
                         <div className="produto-update">
-                            <label htmlFor="quantidade">Quantidade do Produto </label>
+                            <label htmlFor="quantidade_estoque">Quantidade do Produto </label>
                             <br />
                             <input
                                 type="text"
@@ -110,7 +110,7 @@ class EditarProduto extends Component {
                                 minLength="1"
                                 maxLength="100"
                                 required
-                                value={this.state.produto.quantidade}
+                                value={this.state.produto.quantidade_estoque}
                                 onChange={this.handleInputChange}
                             />
                         </div>
