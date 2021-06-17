@@ -36,7 +36,7 @@ export default class Main extends Component {
                             <th scope="col">Nome</th>
                             <th scope="col">Preço</th>
                             <th scope="col">Descrição</th>
-                            <th scope="col">Quantidade</th>
+                            <th scope="col">Quantidade_estoque</th>
                             <th scope="col">Ativo</th>
                             <th scope="col">Ações</th>
                         </tr>
