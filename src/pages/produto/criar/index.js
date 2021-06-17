@@ -92,7 +92,7 @@ class CriarProduto extends Component {
                                 minLength="1"
                                 maxLength="100"
                                 required
-                                value={this.state.produto.quantidade}
+                                value={this.state.produto.quantidade_estoque}
                                 onChange={this.handleInputChange}
                             />
                         </div>
